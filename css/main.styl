@@ -1,0 +1,228 @@
+body
+	background: white
+.border-bottom
+	border-bottom: 1px solid #E4E4E4 !important
+	// background-image: radial-gradient(farthest-side ellipse at 10% 0, rgba(102,105,104,0.9),rgba(93,112,119,0.89),rgba(160,174,150,0.9))
+	// background: rgba(51,51,51,0.4)
+.border-bottom
+	border-bottom: 1px solid #E4E4E4 !important
+
+// fixs
+.select2-container--default .select2-selection--single
+	border: 1px solid #E5E6E7
+
+.container
+	min-width: 960px
+	.form
+		margin-bottom: 20px
+
+.breadcrumbs
+	margin-bottom: 10px !important
+
+
+
+.heading
+	display: flex
+	justify-content: space-between
+	align-items: center
+	margin: 12px 17px 17px
+	.title
+		flex: 1 0 auto
+		margin: 20px 15px
+		font-size: 14px
+		font-weight: bold
+		color: #333333
+	.form
+		flex: 0 0 33%
+		padding-left: 13px
+		vertical-align: middle
+		white-space: nowrap
+		position: relative
+		margin-bottom: 20px
+	input
+		border-radius: 5px
+		background: rgba(95, 94, 90, 0.1)
+		position: relative
+	.icon
+		position absolute
+		top: 50%
+		right: 11px
+		z-index: 1
+		margin-top: -9px
+		color: rgb(28, 132, 198)
+		font-size: 12px
+
+.bg-grey
+	background-color: #f3f3f4
+	.name
+		color: #23c6c8
+		font-size: 15px
+		&:hover
+			color: #ec7063
+	.table > tbody > tr > td
+		padding: 14px
+
+.heading,.actions
+	.btns
+		margin-left: 13px
+		.btn
+			padding: 6px 54px
+			font-size: 13px
+			color: #666666
+			background-color: white
+			border: 1px solid #E4E4E4
+			&:hover
+				background-color: #1C84C6
+				border-color: #bababa
+				color: #FFFFFF
+		.btn-link
+			padding: 6px 12px
+			text-decoration: underline
+			border: none
+			&:hover
+				color: #ec7063
+.filters
+	fieldset
+		margin-bottom: 20px
+		legend
+			margin-bottom: 10px
+		.radios
+			.radio:nth-child(1)
+				margin-top: 0
+		.form-control+.form-control
+			margin-top: 15px
+		.icon-org
+			position: absolute
+			bottom: 22%
+			right: 25px
+			color: rgb(28, 132, 198)
+		.icon-obj
+			position: absolute
+			bottom: 8%
+			right: 25px
+			color: rgb(28, 132, 198)
+	input
+		border-radius: 5px
+		background: rgba(95, 94, 90, 0.1)
+		position: relative
+
+
+// requests
+.requests
+	.table
+		.name
+			font-weight: 700
+		.company, .object
+			dl
+				display: flex
+				margin-bottom: 0
+				dt
+					margin-right: 10px
+		.status .label
+			display: block
+.select2-selection.select2-selection--single
+	height: 34px
+
+// request_details
+.request-details
+	.destinations
+		.row
+			background-color: #F8F8F8
+			margin-left: 0
+			border-bottom: 1px solid #E4E4E4
+			.col-xs-4
+				padding: 0
+				margin-top: 11px
+				strong
+					color: black
+					margin-left: 20px
+				dl
+					margin-bottom: 0
+					dt,dd
+						margin: 5.5px 0 5.5px 20px
+					dt
+						float: left
+						clear: both
+						font-weight: normal
+						width: 100px
+					dd
+						float: left
+				&:last-child
+					margin-left: 100px
+	.request
+		.row
+			margin-left: 0
+			background-color: #F8F8F8
+			.col-xs-4
+				margin: 10px 20px
+				padding: 0
+				.form-control
+					margin-bottom: 15px
+					color: black
+					border-radius: 0
+				.select2
+					border-radius: 0 !important
+			.col-xs-12
+				padding: 0 13px 15px 15px
+	.initial-data,.requested-data
+		padding: 0
+		.title
+			border-radius: 5px
+			background-color: #9cc2cb
+			color: #fff
+			margin-left: 13px
+			margin-top: 10px
+			padding: 4px
+			&:before
+				font-family: FontAwesome
+				content: "\f147"
+				font-size: 15px
+				margin-left: 5px
+				margin-right: 5px
+			&.collapsed:before
+				content: "\f196"
+		.grey
+			background-color: #F8F8F8
+			margin-left: 15px
+			.collapse
+				h4
+					color: black
+					font-size: 13px
+					padding: 6px 20px
+					background-color: white
+					margin: 0
+				.btn
+					border-radius: 0
+					background-color: white
+					font-size: 13px
+					border: 1px solid #CCCCCC
+					padding: 6px 30px
+					margin-left: 15px
+					margin-bottom: 10px
+					&:hover
+						background-color: #1C84C6
+						color: white
+				.table,.table-striped,.table-hover,.table-bordered
+					border: 1px solid #E4E4E4
+					tbody
+						tr.even
+							background-color: white !important
+				&:last-child
+					padding-bottom: 7px
+	.file-upload
+		padding: 0
+		margin-left: 13px
+		h4
+			color: black
+			font-size: 13px
+.col-lg-7
+	.btn
+		background-color: white
+		font-size: 13px
+		border: 1px solid #CCCCCC
+		padding: 6px 30px
+		&:hover
+			background-color: #1C84C6
+			color: white
+	.decor
+		color: #D9534F

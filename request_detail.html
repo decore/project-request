@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1170">
+
+	<title>INSPINIA | Dashboard</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="font/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+	<!-- Toastr style -->
+	<link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+	<!-- Gritter -->
+	<link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+
+	<link href="css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+	<link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+	<link href="js/plugins/file-upload/css/jquery.fileupload.css" rel="stylesheet">
+	<link href="js/plugins/select2/css/select2.min.css" rel="stylesheet">
+
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="request-details">
+	<main class="main">
+		<div class="container">
+			<div class="border-bottom">
+				<ol class="breadcrumb">
+					<li>
+						<a href="#">Заявки</a>
+					</li>
+					<li class="active">
+						<strong>Просмотр</strong>
+					</li>
+				</ol>
+			</div>
+			<div class="form">
+				<div class="heading">
+					<h3 class="title">Заявка1</h3>
+					<div class="btns">
+						<button class="btn btn-outline btn-default">Отправить</button>
+						<button class="btn-link">Отмена</button>
+					</div>
+				</div>
+				<fieldset class="destinations">
+					<div class="row">
+						<div class="col-xs-4">
+							<strong>От кого:</strong>
+							<dl>
+								<dt>Организация</dt>
+								<dd>Организация1</dd>
+								<dt>Отдел</dt>
+								<dd>Отдел1</dd>
+								<dt>Составитель</dt>
+								<dd>ФИО</dd>
+								<dt>Объект</dt>
+								<dd>Объект1</dd>
+							</dl>
+						</div>
+						<div class="col-xs-4">
+							<strong>Кому:</strong>
+							<dl>
+								<dt>Организация</dt>
+								<dd>Организация1</dd>
+								<dt>Отдел</dt>
+								<dd>Отдел1</dd>
+							</dl>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset class="request">
+					<div class="row">
+						<div class="col-xs-4">
+							<select class="form-control" data-placeholder="Тип заявок">
+								<option disable></option>
+								<option>1</option>
+								<option>2</option>
+							</select>
+						</div>
+						<div class="col-xs-12">
+							<textarea class="form-control" rows="3"></textarea>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset class="initial-data">
+					<div class="title collapsed" data-toggle="collapse" href="#initial-data">Исходные данные</div>
+					<div class="grey">
+						<div class="collapse" id="initial-data">
+							<h4>1. Свойства скважины</h4>
+							<table class="table table-hover table-striped table-bordered">
+								<tbody>
+									<tr>
+										<td>№</td>
+										<td>Свойство скважины</td>
+										<td>Единица измерения</td>
+										<td>Показатель</td>
+									</tr>
+									<tr>
+										<td>1</td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+							<h4>2. Характеристики раствора</h4>
+							<table class="table table-hover table-striped table-bordered">
+								<tbody>
+									<tr>
+										<td>№</td>
+										<td>Характеристика раствора</td>
+										<td>Единица измерения</td>
+										<td>Показатель</td>
+									</tr>
+									<tr>
+										<td>1</td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset class="requested-data">
+					<div class="title collapsed" data-toggle="collapse" href="#requested-data">Запрашиваемые данные</div>
+					<div class="grey">
+						<div class="collapse" id="requested-data">
+							<h4>1. Требуемые компоненты</h4>
+							<table class="table table-hover table-striped table-bordered">
+							<tbody>
+								<tr>
+									<td>№</td>
+									<td>Компонент</td>
+									<td>Количество, кг/куб. м</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+							</table>
+							<button class="btn btn-outline btn-default">Проверить состав</button>
+							<h4>2. Рекомендуемые компоненты <a href="#">Выбрать</a></h4>
+							<table class="table table-hover table-striped table-bordered">
+							<tbody>
+								<tr>
+									<td>№</td>
+									<td>Компонент</td>
+									<td>Количество, кг/куб. м</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+							</table>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset class="file-upload">
+					<h4>Результаты моделирования</h4>
+					<!-- The file upload form used as target for the file upload widget -->
+					<form id="fileupload" action="//jquery-file-upload.appspot.com/" method="POST" enctype="multipart/form-data">
+						<!-- Redirect browsers with JavaScript disabled to the origin page -->
+						<noscript><input type="hidden" name="redirect" value="https://blueimp.github.io/jQuery-File-Upload/"></noscript>
+						<!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
+						<div class="row fileupload-buttonbar">
+							<div class="col-lg-7">
+								<!-- The fileinput-button span is used to style the file input field as button -->
+								<span class="btn btn-outline fileinput-button">
+									<i class="glyphicon glyphicon-plus"></i>
+									<span>Загрузить файл</span>
+									<input type="file" name="files[]" multiple>
+								</span>
+								<span class="decor"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeElEQVRIS+2WO07DQBCGZwxITqBwQQdSzAkgZUgBvkGOADdIH1kYIXpuADcgNwgUiBIfwUhxR+EiJiASD7M2sdbGNvKDLq6s3dn5dnZn/lkE6dOsF21nc37PQ6fyeOY/oUFAA9c8HhbZojy5d/18hkS3fzoXBgwApAkhnruj3l3emgRg/+rJAsSLMoDQlmFTs/eQta4hAHmkgOGO+nYa0gxABAHg+ItW17O6ngypBSAIbhDxcOWQL932F21DhtQAwPjtQx3uqp8H8o5nS9VuBpCXCUSXU7NvraarR/AfAL7IV+GXd9XJTeVaEfDi0HFRrawB6yP6paYiNeO0TGVRYi7Wi7KFJhqLAnrYJySA6AMYgCN6QqImSqcpRVIMoBxhEOih/CuKAxDYDJhwTWj1AKHHCOJ/tdkxwPbWu57pPLKtqEVxJFzIWTuvfAdy/Az5qYPksSRt8iMo1fRz1C79CEjIdfhs2ZiPWS5PctWyaILgcbZsDeSG8w0bsxIo2RsG+QAAAABJRU5ErkJggg=="/>Файл результатов моделирования</span>
+								<span class="fileupload-process"></span>
+							</div>
+							<!-- The global progress state -->
+							<div class="col-lg-5 fileupload-progress fade">
+								<!-- The global progress bar -->
+								<div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+									<div class="progress-bar progress-bar-success" style="width:0%;"></div>
+								</div>
+								<!-- The extended global progress state -->
+								<div class="progress-extended">&nbsp;</div>
+							</div>
+						</div>
+						<!-- The table listing the files available for upload/download -->
+						<table role="presentation" class="table table-striped"><tbody class="files"></tbody></table>
+					</form>
+
+				</fieldset>
+				<fieldset class="actions">
+					<div class="btns">
+						<button class="btn btn-outline btn-default">Отправить</button>
+						<button class="btn-link">Отмена</button>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+	</main>
+
+<!-- The template to display files available for upload -->
+<script id="template-upload" type="text/x-tmpl">
+{% for (var i=0, file; file=o.files[i]; i++) { %}
+	<tr class="template-upload fade">
+		<td>
+			<span class="preview"></span>
+		</td>
+		<td>
+			<p class="name">{%=file.name%}</p>
+			<strong class="error text-danger"></strong>
+		</td>
+		<td>
+			<p class="size">Processing...</p>
+			<div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="progress-bar progress-bar-success" style="width:0%;"></div></div>
+		</td>
+		<td>
+			{% if (!i && !o.options.autoUpload) { %}
+				<button class="btn btn-primary start" disabled>
+					<i class="glyphicon glyphicon-upload"></i>
+					<span>Start</span>
+				</button>
+			{% } %}
+			{% if (!i) { %}
+				<button class="btn btn-warning cancel">
+					<i class="glyphicon glyphicon-ban-circle"></i>
+					<span>Cancel</span>
+				</button>
+			{% } %}
+		</td>
+	</tr>
+{% } %}
+</script>
+<!-- The template to display files available for download -->
+<script id="template-download" type="text/x-tmpl">
+{% for (var i=0, file; file=o.files[i]; i++) { %}
+	<tr class="template-download fade">
+		<td>
+			<span class="preview">
+				{% if (file.thumbnailUrl) { %}
+					<a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" data-gallery><img src="{%=file.thumbnailUrl%}"></a>
+				{% } %}
+			</span>
+		</td>
+		<td>
+			<p class="name">
+				{% if (file.url) { %}
+					<a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}</a>
+				{% } else { %}
+					<span>{%=file.name%}</span>
+				{% } %}
+			</p>
+			{% if (file.error) { %}
+				<div><span class="label label-danger">Error</span> {%=file.error%}</div>
+			{% } %}
+		</td>
+		<td>
+			<span class="size">{%=o.formatFileSize(file.size)%}</span>
+		</td>
+		<td>
+			{% if (file.deleteUrl) { %}
+				<button class="btn btn-danger delete" data-type="{%=file.deleteType%}" data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %} data-xhr-fields='{"withCredentials":true}'{% } %}>
+					<i class="glyphicon glyphicon-trash"></i>
+					<span>Delete</span>
+				</button>
+				<input type="checkbox" name="delete" value="1" class="toggle">
+			{% } else { %}
+				<button class="btn btn-warning cancel">
+					<i class="glyphicon glyphicon-ban-circle"></i>
+					<span>Cancel</span>
+				</button>
+			{% } %}
+		</td>
+	</tr>
+{% } %}
+</script>
+
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/jquery-ui-1.10.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="js/plugins/pace/pace.min.js"></script>
+	<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="js/plugins/iCheck/icheck.min.js"></script>
+	<script src="js/plugins/datapicker/bootstrap-datepicker.js"></script>
+	<script src="//blueimp.github.io/JavaScript-Templates/js/tmpl.min.js"></script>
+	<script src="//blueimp.github.io/JavaScript-Load-Image/js/load-image.all.min.js"></script>
+	<script src="//blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+	<script src="js/plugins/file-upload/js/jquery.iframe-transport.js"></script>
+	<script src="js/plugins/file-upload/js/jquery.fileupload.js"></script>
+	<script src="js/plugins/file-upload/js/jquery.fileupload-process.js"></script>
+	<script src="js/plugins/file-upload/js/jquery.fileupload-image.js"></script>
+	<script src="js/plugins/file-upload/js/jquery.fileupload-audio.js"></script>
+	<script src="js/plugins/file-upload/js/jquery.fileupload-video.js"></script>
+	<script src="js/plugins/file-upload/js/jquery.fileupload-validate.js"></script>
+	<script src="js/plugins/file-upload/js/jquery.fileupload-ui.js"></script>
+	<script src="js/plugins/select2/js/select2.full.min.js"></script>
+	<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+	<script src="js/inspinia.js"></script>
+</body>
+</html>
