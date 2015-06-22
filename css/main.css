@@ -42,7 +42,7 @@ body {
   -webkit-flex: 0 0 33%;
       -ms-flex: 0 0 33%;
           flex: 0 0 33%;
-  padding-left: 13px;
+  padding-left: 7px;
   vertical-align: middle;
   white-space: nowrap;
   position: relative;
@@ -66,7 +66,7 @@ body {
   background-color: #f3f3f4;
 }
 .bg-grey .name {
-  color: #23c6c8;
+  color: #1abc9c;
   font-size: 15px;
 }
 .bg-grey .name:hover {
@@ -121,13 +121,13 @@ body {
 .filters fieldset .icon-org {
   position: absolute;
   bottom: 22%;
-  right: 25px;
+  right: 11px;
   color: #1c84c6;
 }
 .filters fieldset .icon-obj {
   position: absolute;
   bottom: 8%;
-  right: 25px;
+  right: 11px;
   color: #1c84c6;
 }
 .filters input {
