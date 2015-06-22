@@ -29,13 +29,9 @@ body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 12px 17px 17px;
+  margin: 12px 0px 17px;
 }
 .heading .title {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
   margin: 20px 15px;
   font-size: 14px;
   font-weight: bold;
@@ -160,63 +156,63 @@ body {
 .select2-selection.select2-selection--single {
   height: 34px;
 }
-.request-details .destinations .row {
+.form .destinations .row {
   background-color: #f8f8f8;
   margin-left: 0;
   border-bottom: 1px solid #e4e4e4;
 }
-.request-details .destinations .row .col-xs-4 {
+.form .destinations .row .col-xs-4 {
   padding: 0;
   margin-top: 11px;
 }
-.request-details .destinations .row .col-xs-4 strong {
+.form .destinations .row .col-xs-4 strong {
   color: #000;
   margin-left: 20px;
 }
-.request-details .destinations .row .col-xs-4 dl {
+.form .destinations .row .col-xs-4 dl {
   margin-bottom: 0;
 }
-.request-details .destinations .row .col-xs-4 dl dt,
-.request-details .destinations .row .col-xs-4 dl dd {
+.form .destinations .row .col-xs-4 dl dt,
+.form .destinations .row .col-xs-4 dl dd {
   margin: 5.5px 0 5.5px 20px;
 }
-.request-details .destinations .row .col-xs-4 dl dt {
+.form .destinations .row .col-xs-4 dl dt {
   float: left;
   clear: both;
   font-weight: normal;
   width: 100px;
 }
-.request-details .destinations .row .col-xs-4 dl dd {
+.form .destinations .row .col-xs-4 dl dd {
   float: left;
 }
-.request-details .destinations .row .col-xs-4:last-child {
+.form .destinations .row .col-xs-4:last-child {
   margin-left: 100px;
 }
-.request-details .request .row {
+.form .request .row {
   margin-left: 0;
   background-color: #f8f8f8;
 }
-.request-details .request .row .col-xs-4 {
+.form .request .row .col-xs-4 {
   margin: 10px 20px;
   padding: 0;
 }
-.request-details .request .row .col-xs-4 .form-control {
+.form .request .row .col-xs-4 .form-control {
   margin-bottom: 15px;
   color: #000;
   border-radius: 0;
 }
-.request-details .request .row .col-xs-4 .select2 {
+.form .request .row .col-xs-4 .select2 {
   border-radius: 0 !important;
 }
-.request-details .request .row .col-xs-12 {
+.form .request .row .col-xs-12 {
   padding: 0 13px 15px 15px;
 }
-.request-details .initial-data,
-.request-details .requested-data {
+.form .initial-data,
+.form .requested-data {
   padding: 0;
 }
-.request-details .initial-data .title,
-.request-details .requested-data .title {
+.form .initial-data .title,
+.form .requested-data .title {
   border-radius: 5px;
   background-color: #9cc2cb;
   color: #fff;
@@ -224,34 +220,33 @@ body {
   margin-top: 10px;
   padding: 4px;
 }
-.request-details .initial-data .title:before,
-.request-details .requested-data .title:before {
+.form .initial-data .title:before,
+.form .requested-data .title:before {
   font-family: FontAwesome;
   content: "\f147";
   font-size: 15px;
   margin-left: 5px;
   margin-right: 5px;
 }
-.request-details .initial-data .title.collapsed:before,
-.request-details .requested-data .title.collapsed:before {
+.form .initial-data .title.collapsed:before,
+.form .requested-data .title.collapsed:before {
   content: "\f196";
 }
-.request-details .initial-data .grey,
-.request-details .requested-data .grey {
+.form .initial-data .grey,
+.form .requested-data .grey {
   background-color: #f8f8f8;
   margin-left: 15px;
 }
-.request-details .initial-data .grey .collapse h4,
-.request-details .requested-data .grey .collapse h4 {
+.form .initial-data .grey .collapse h4,
+.form .requested-data .grey .collapse h4 {
   color: #000;
   font-size: 13px;
   padding: 6px 20px;
   background-color: #fff;
   margin: 0;
 }
-.request-details .initial-data .grey .collapse .btn,
-.request-details .requested-data .grey .collapse .btn {
-  border-radius: 0;
+.form .initial-data .grey .collapse .btn,
+.form .requested-data .grey .collapse .btn {
   background-color: #fff;
   font-size: 13px;
   border: 1px solid #ccc;
@@ -259,40 +254,28 @@ body {
   margin-left: 15px;
   margin-bottom: 10px;
 }
-.request-details .initial-data .grey .collapse .btn:hover,
-.request-details .requested-data .grey .collapse .btn:hover {
+.form .initial-data .grey .collapse .btn:hover,
+.form .requested-data .grey .collapse .btn:hover {
   background-color: #1c84c6;
   color: #fff;
 }
-.request-details .initial-data .grey .collapse .table,
-.request-details .requested-data .grey .collapse .table,
-.request-details .initial-data .grey .collapse .table-striped,
-.request-details .requested-data .grey .collapse .table-striped,
-.request-details .initial-data .grey .collapse .table-hover,
-.request-details .requested-data .grey .collapse .table-hover,
-.request-details .initial-data .grey .collapse .table-bordered,
-.request-details .requested-data .grey .collapse .table-bordered {
+.form .initial-data .grey .collapse .table,
+.form .requested-data .grey .collapse .table,
+.form .initial-data .grey .collapse .table-hover,
+.form .requested-data .grey .collapse .table-hover,
+.form .initial-data .grey .collapse .table-bordered,
+.form .requested-data .grey .collapse .table-bordered {
   border: 1px solid #e4e4e4;
 }
-.request-details .initial-data .grey .collapse .table tbody tr.even,
-.request-details .requested-data .grey .collapse .table tbody tr.even,
-.request-details .initial-data .grey .collapse .table-striped tbody tr.even,
-.request-details .requested-data .grey .collapse .table-striped tbody tr.even,
-.request-details .initial-data .grey .collapse .table-hover tbody tr.even,
-.request-details .requested-data .grey .collapse .table-hover tbody tr.even,
-.request-details .initial-data .grey .collapse .table-bordered tbody tr.even,
-.request-details .requested-data .grey .collapse .table-bordered tbody tr.even {
-  background-color: #fff !important;
-}
-.request-details .initial-data .grey .collapse:last-child,
-.request-details .requested-data .grey .collapse:last-child {
+.form .initial-data .grey .collapse:last-child,
+.form .requested-data .grey .collapse:last-child {
   padding-bottom: 7px;
 }
-.request-details .file-upload {
+.form .file-upload {
   padding: 0;
   margin-left: 13px;
 }
-.request-details .file-upload h4 {
+.form .file-upload h4 {
   color: #000;
   font-size: 13px;
 }
@@ -305,4 +288,7 @@ body {
 .col-lg-7 .btn:hover {
   background-color: #1c84c6;
   color: #fff;
+}
+.row .col-xs-4 {
+  padding-right: 0px;
 }

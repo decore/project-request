@@ -259,8 +259,8 @@ $(document).ready(function () {
 
     // icheck
     $('input').iCheck({
-        checkboxClass: 'icheckbox_square',
-        radioClass: 'iradio_square-green',
+        checkboxClass: 'icheckbox_flat',
+        radioClass: 'iradio_flat-green',
         increaseArea: '20%'
     });
 });
